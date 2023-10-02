@@ -1,0 +1,26 @@
+package pkg;
+import java.util.*;
+
+class UpperBoundWildcard<T extends Number> {
+    private List<T> numbers = new ArrayList<>();
+
+    public void addNumber(T number) {
+        numbers.add(number);
+    }
+
+    public List<T> getNumbers() {
+        return numbers;
+    }
+
+    public static double sum(List<? extends Number> list) {
+        return list.stream().mapToDouble(Number::doubleValue).sum();
+    }
+
+    public static void sort(List<? extends Number> list) {
+        list.sort(Comparator.comparingDouble(Number::doubleValue));
+    }
+}
+
+public class Main {
+
+}

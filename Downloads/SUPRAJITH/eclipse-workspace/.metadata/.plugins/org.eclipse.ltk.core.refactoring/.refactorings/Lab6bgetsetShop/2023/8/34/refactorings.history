@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;pkg.producerconsumer.java&apos; to &apos;ProducerConsumer.java&apos;&#x0A;- Original project: &apos;Lab6bgetsetShop&apos;&#x0A;- Original element: &apos;pkg.producerconsumer.java&apos;&#x0A;- Renamed element: &apos;pkg.ProducerConsumer.java&apos;" description="Rename compilation unit &apos;producerconsumer.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;pkg{producerconsumer.java" name="ProducerConsumer.java" references="false" stamp="1692909857287" version="1.0"/>
+</session>
